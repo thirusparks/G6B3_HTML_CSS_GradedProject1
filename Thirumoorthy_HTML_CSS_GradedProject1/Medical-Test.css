@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 18px;
+}
+article{
+    width: 70vw;
+    height: 80vh;
+    overflow-y: scroll;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding: 2%;
+    text-align: left;
+    box-shadow: 0 20px 18px 0 rgba(0, 0, 0, 0.2), 0 20px 28px 0 rgba(0, 0, 0, 0.19);
+   /* background-image: "Lab-Test\lab-test.jpg";
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;*/
+}
+h1{
+    line-height: 3;
+    text-align: center;
+}
+.img_deg {
+    float: right;
+    width: 60%;
+}
+h3{
+    line-height: 3;
+    
+}
+input{
+    line-height: 2;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    cursor: pointer;
+}
+select{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+p{
+    line-height: 1;
+}
+.line{
+    margin-top: 10px;
+}
+.submit{
+    background-color: rgb(132, 67, 194);
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px; 
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+}
+.button{
+    background-color: rgb(132, 67, 194);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
